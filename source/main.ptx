@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <docinfo>
+    <macros>
+      \newcommand{\units}[1]{\,\text{#1}}
+      \newcommand{\fstrut}{\rule[-0.6em]{0pt}{1.9em}}
+      \newcommand{\fracstrut}{\rule[-0.9em]{0pt}{2.5em}}
+    </macros>
+  </docinfo>
+
+  <article xml:id="phys212-quizzes">
+    <title>PHYS 212 Quizzes</title>
+
+    <!-- Each worksheet is one quiz, one printed page: the shared   -->
+    <!-- header from quiz06-header.ptx, then one problem.  As       -->
+    <!-- top-level divisions of the article, the quizzes each get a -->
+    <!-- page and an entry in the table of contents.                -->
+
+    <worksheet xml:id="quiz06-v1">
+      <title>Quiz 1</title>
+      <xi:include href="quiz06-header.ptx"/>
+      <exercise xml:id="quiz06-v1-electron-energy" workspace="1.7in">
+        <statement>
+          <p>
+            Calculate the non-relativistic kinetic energy (in eV) for an electron of wavelength 600<nbsp/>nm.
+          </p>
+        </statement>
+      </exercise>
+    </worksheet>
+
+    <worksheet xml:id="quiz06-v2">
+      <title>Quiz 2</title>
+      <xi:include href="quiz06-header.ptx"/>
+      <exercise xml:id="quiz06-v2-ionization" workspace="1.7in">
+        <statement>
+          <p>
+            An X-ray photon of wavelength 40<nbsp/>nm ionizes a hydrogen atom.
+            Given that the binding energy of hydrogen is 13.6<nbsp/>eV,
+            calculate the maximum kinetic energy of the resulting free electron.
+          </p>
+        </statement>
+      </exercise>
+    </worksheet>
+
+    <worksheet xml:id="quiz06-v3">
+      <title>Quiz 3</title>
+      <xi:include href="quiz06-header.ptx"/>
+      <exercise xml:id="quiz06-v3-cutoff" workspace="1.7in">
+        <statement>
+          <p>
+            The electron binding energy for a particular metal is 2.0<nbsp/>eV.
+            Calculate the cutoff frequency for the photoelectric effect in this metal.
+          </p>
+        </statement>
+      </exercise>
+    </worksheet>
+
+    <worksheet xml:id="quiz06-v4">
+      <title>Quiz 4</title>
+      <xi:include href="quiz06-header.ptx"/>
+      <exercise xml:id="quiz06-v4-three-slit">
+        <introduction>
+          <p>
+            Light of wavelength 550<nbsp/>nm passes through a three-slit system where the slits are separated by a distance <m>d=1.8\times10^{-5}</m><nbsp/>m,
+            and produces an interference pattern on a distant screen.
+          </p>
+        </introduction>
+        <task workspace="2in">
+          <statement>
+            <p>
+              Draw phasor diagrams for the two minima between the central maximum and the first side maximum.
+            </p>
+          </statement>
+        </task>
+        <task workspace="1in">
+          <statement>
+            <p>
+              Calculate the angles (relative to the direction of the central maximum) where each of these minima occurs.
+            </p>
+          </statement>
+        </task>
+      </exercise>
+    </worksheet>
+
+    <worksheet xml:id="quiz06-v5">
+      <title>Quiz 5</title>
+      <xi:include href="quiz06-header.ptx"/>
+      <exercise xml:id="quiz06-v5-single-slit" workspace="2in">
+        <statement>
+          <p>
+            Light with wavelength 633<nbsp/>nm is incident on a 1.75-<m>\mu</m>m-wide slit.
+            Find the angular width of the central peak in the diffraction pattern,
+            taken as the angular separation between the first minima.
+          </p>
+        </statement>
+      </exercise>
+    </worksheet>
+
+    <worksheet xml:id="quiz06-v6">
+      <title>Quiz 6</title>
+      <xi:include href="quiz06-header.ptx"/>
+      <exercise xml:id="quiz06-v6-eye-resolution" workspace="2in">
+        <statement>
+          <p>
+            In bright light, the human eye’s pupil diameter is about 2<nbsp/>mm.
+            If diffraction were the limiting factor,
+            what’s the eye’s minimum angular resolution under these conditions,
+            assuming 550-nm light?
+          </p>
+        </statement>
+      </exercise>
+    </worksheet>
+  </article>
+</pretext>

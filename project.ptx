@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The project manifest, for the PreTeXt CLI.  Build with      -->
+<!-- "pretext build web" or "pretext build print"; the content   -->
+<!-- is in source/main.ptx.  See                                 -->
+<!-- https://pretextbook.org/doc/guide/html/processing-CLI.html  -->
+<project ptx-version="2">
+  <targets>
+    <target name="web" format="html" publication="publication.ptx"/>
+    <target name="print" format="pdf" publication="publication.ptx"/>
+  </targets>
+</project>

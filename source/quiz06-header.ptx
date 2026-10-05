@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Shared header for every quiz: identification lines and the -->
+<!-- formula sheet.  Included in each worksheet, so it must not  -->
+<!-- contain any xml:id.                                         -->
+<introduction>
+  <p>
+    Name: <fillin characters="40"/>
+  </p>
+  <p>
+    Problem session instructor: <fillin characters="20"/>
+    Time: <fillin characters="12"/>
+  </p>
+  <!-- Each formula is separate inline math, so lines can wrap between  -->
+  <!-- formulas when the text is enlarged.  The non-breaking spaces keep -->
+  <!-- formulas apart; the ordinary space after them allows a break.     -->
+  <!-- Each formula ends with "\ \ " for extra space before the next. -->
+  <!-- Braces keep MathJax from breaking a line inside a formula; in a   -->
+  <!-- chain of two equalities each side is braced, so on a narrow       -->
+  <!-- screen the line may break at the second equals sign.              -->
+  <!-- Each braced group, which may begin a line, starts with an        -->
+  <!-- invisible strut (macros in main.ptx), so wrapped lines are well  -->
+  <!-- separated: \fracstrut is taller, for formulas with fractions.    -->
+  <p>
+    <m>{\fstrut \lambda = h/p\ \ }</m><nbsp/><nbsp/><nbsp/>
+    <m>{\fstrut m_e = 9.11 \times 10^{-31} \units{kg}} = {\fstrut 511 \units{keV}/c^2\ \ }</m><nbsp/><nbsp/><nbsp/>
+    <m>{\fstrut m_p = 1.67 \times 10^{-27} \units{kg}\ \ }</m>
+  </p>
+  <p>
+    <m>{\fstrut p = mv\ \ }</m><nbsp/><nbsp/><nbsp/>
+    <m>{\fstrut h = 6.63 \times 10^{-34} \units{J} \cdot \units{s}} = {\fstrut 4.14 \times 10^{-15} \units{eV} \cdot \units{s}\ \ }</m><nbsp/><nbsp/><nbsp/>
+    <m>{\fstrut hc = 1240 \units{eV} \cdot \units{nm}\ \ }</m>
+  </p>
+  <p>
+    <m>{\fstrut K_\text{max} = h f - U_b\ \ }</m><nbsp/><nbsp/><nbsp/>
+    <m>{\fstrut 1 \units{eV} = 1.6 \times 10^{-19} \units{J}\ \ }</m><nbsp/><nbsp/><nbsp/>
+    <m>{\fstrut K = p^2/2m\ \ }</m><nbsp/><nbsp/><nbsp/>
+    <m>{\fstrut E_\text{ph} = hf = hc/\lambda\ \ }</m>
+  </p>
+  <p>
+    <m>{\fracstrut \Delta \phi = \dfrac{2 \pi}{\lambda} \Delta r\ \ }</m><nbsp/><nbsp/><nbsp/>
+    <m>{\fstrut \Delta r = |r_2 - r_1|\ \ }</m><nbsp/><nbsp/><nbsp/>
+    <m>{\fstrut \Delta r = d \sin{\theta}\ \ }</m><nbsp/><nbsp/><nbsp/>
+    <m>{\fstrut \Delta y = L \tan{\theta}\ \ }</m><nbsp/><nbsp/><nbsp/>
+    <m>{\fracstrut \theta_\text{min} = \dfrac{1.22 \lambda}{D}\ \ }</m>
+  </p>
+</introduction>

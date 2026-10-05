@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<publication>
+    <!-- If the quizzes acquire images, put them in an assets folder  -->
+    <!-- beside source, and add (paths relative to source/main.ptx):  -->
+    <!--   <source>                                                    -->
+    <!--     <directories external="../assets" generated="../generated-assets"/> -->
+    <!--   </source>                                                   -->
+
+    <!-- PDF output for printing on paper, one-sided -->
+    <latex print="yes" sides="one"/>
+</publication>
